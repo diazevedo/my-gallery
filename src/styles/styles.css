@@ -86,6 +86,21 @@ img {
   background-color: #96a89b;
 }
 
+.footer {
+  margin-top: var(--space-lg);
+  text-align: center;
+}
+.link {
+  cursor: pointer;
+  font-size: var(--text-smx);
+  font-weight: 600;
+  color: var(--gray-4);
+}
+
+.footer .link:first-child {
+  margin-right: 2rem;
+}
+
 @media (min-width: 768px) {
   .header .profile__image {
     width: 15.6rem;
